@@ -1,0 +1,267 @@
+[
+    {
+      "name": "Classic Formal Suit",
+      "image": "https://img.fruugo.com/product/9/11/247135119_max.jpg",
+      "price": 249.99,
+      "ratings": 4.9,
+      "description": "This elegant classic formal suit is designed for sophistication and comfort. Crafted from premium wool-blend fabric, it features a tailored fit, a notch lapel, and a two-button closure. The breathable inner lining ensures comfort for long hours, making it ideal for business meetings, weddings, and formal occasions. Available in multiple colors and sizes to suit every style preference.",
+      "category": "men"
+    },
+    {
+      "name": "Casual Cotton Polo T-Shirt",
+      "image": "https://m.media-amazon.com/images/I/513axSd7gWL._AC_SX466_.jpg",
+      "price": 39.99,
+      "ratings": 4.7,
+      "description": "A must-have for everyday casual wear, this polo t-shirt is crafted from 100% soft cotton for ultimate comfort. The fabric is breathable and lightweight, making it perfect for summer outings. Designed with a classic collar, a two-button placket, and ribbed cuffs, this polo offers a smart yet relaxed look. Pair it with jeans or chinos for a stylish, effortless outfit.",
+      "category": "men"
+    },
+    {
+      "name": "Leather Bomber Jacket",
+      "image": "https://happygentleman.com/wp-content/uploads/2024/12/5010_jacket_burgundy-Mens-Leather-Harrington-BomberJacket-16-1.webp",
+      "price": 189.99,
+      "ratings": 4.8,
+      "description": "This stylish leather bomber jacket is the perfect blend of fashion and functionality. Made from 100% genuine leather, it features a zip-up front, ribbed cuffs, and a soft inner lining for extra warmth. The slim-fit design provides a modern look, while the multiple pockets add practicality. Whether worn over a casual t-shirt or a dress shirt, this jacket adds a rugged edge to any outfit.",
+      "category": "men"
+    },
+    {
+      "name": "Slim Fit Denim Jeans",
+      "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1245666_lifestyle?wid=1200&hei=1200&fmt=png",
+      "price": 59.99,
+      "ratings": 4.6,
+      "description": "These slim-fit denim jeans are a wardrobe essential for men who prefer a modern, stylish look. Made from high-quality stretch denim, they provide both comfort and durability. The five-pocket design, zip fly with button closure, and subtle distressed details add to their trendy appeal. Perfect for pairing with t-shirts, shirts, or jackets, these jeans work for both casual and semi-formal occasions.",
+      "category": "men"
+    },
+    {
+      "name": "Full Sleeve Winter Sweater",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykIwT1iYz-H_3NylMtGT9v_E44xlbZTFY04pnKRjwY8YBAQ7Q0rz2CxFrdyhi2FfrBT4&usqp=CAU",
+      "price": 79.99,
+      "ratings": 4.9,
+      "description": "Designed for performance and style, these running sneakers are perfect for athletes and casual wearers alike. Featuring a lightweight and breathable mesh upper, these shoes provide superior ventilation. The cushioned sole absorbs impact, ensuring comfort during long runs or workouts. With a durable rubber outsole for traction, these sneakers offer stability and flexibility. Suitable for jogging, gym workouts, and everyday activities.",
+      "category": "men"
+    },
+    {
+      "name": "Men’s Woolen Winter Coat",
+      "image": "https://i.ebayimg.com/images/g/sUUAAOSwfxxhzVUE/s-l400.png",
+      "price": 229.99,
+      "ratings": 4.8,
+      "description": "Stay warm and stylish with this premium woolen winter coat. Made from a high-quality wool blend, this coat provides exceptional insulation while maintaining breathability. It features a double-breasted design, a classic lapel collar, and deep pockets for practicality. The tailored fit gives a polished look, making it ideal for both professional and casual wear during cold weather. A timeless piece that complements any wardrobe.",
+      "category": "men"
+    },
+    {
+        "name": "Michael kors long sleeves shirt",
+        "image": "https://dynamic.zacdn.com/rqAZG4TIXnN_OI66xQwcZ1AD6Q4=/filters:quality(70):format(webp)/https://static-my.zacdn.com/p/michael-kors-4657-2696943-1.jpg",
+        "price": 89.99,
+        "ratings": 4.8,
+        "description": "This stunning floral maxi dress is the perfect blend of elegance and comfort. Made from premium chiffon fabric, it drapes beautifully while allowing breathability. The dress features a V-neckline, short flutter sleeves, and a cinched waist that enhances your silhouette. The flowing skirt creates a graceful look, making it ideal for special occasions, casual outings, or evening events. Pair it with heels and minimal jewelry for a sophisticated touch.",
+        "category": "women"
+      },
+      {
+        "name": "Women's High-Waisted Skinny Jeans",
+        "image": "https://www.flannels.com/images/imgzoom/65/65624818_xxl.jpg",
+        "price": 59.99,
+        "ratings": 4.7,
+        "description": "A must-have staple for any wardrobe, these high-waisted skinny jeans provide both comfort and style. Crafted from a premium blend of cotton, polyester, and elastane, they offer the perfect stretch for a flattering fit. The high waist design accentuates your curves while providing support. Featuring a classic five-pocket styling and a button-zip closure, these jeans are versatile enough to pair with crop tops, blouses, or sweaters for a stylish look.",
+        "category": "women"
+      },
+      {
+        "name": "Luxury Cashmere Winter Coat",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVIBGJ4EYKagD-UACA2B8VPmE4eFSJCrIFQ&s",
+        "price": 249.99,
+        "ratings": 4.9,
+        "description": "Stay warm and fashionable with this luxurious cashmere winter coat. Designed for ultimate sophistication, it is crafted from a blend of fine cashmere and wool, providing superior insulation and softness. The tailored fit and double-breasted design create a timeless look. Featuring deep pockets and an adjustable waist belt, this coat is both stylish and functional. Perfect for winter outings, business meetings, or evening walks.",
+        "category": "women"
+      },
+      {
+        "name": "Leather Jacket",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBrwMxydhGt9iwKvhjSFIjsZWxofJQ9OJnMPujeNLWBkTZl49wJLKLWpWOCc4wDe-UbZo&usqp=CAU",
+        "price": 179.99,
+        "ratings": 4.8,
+        "description": "Turn heads with this breathtaking off-shoulder evening gown. Made from high-quality satin fabric, this gown exudes elegance and grace. The off-shoulder design showcases your collarbones, while the fitted bodice and flowy skirt create a sophisticated silhouette. The gown is perfect for weddings, galas, and other formal events. Pair it with statement jewelry and a clutch for a complete red-carpet look.",
+        "category": "women"
+      },
+      {
+        "name": "Luxury Leather Handbag",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvB8BspOs-AC4ZyGBsJIk0_DqykjG9jPFlAg&s",
+        "price": 999.99,
+        "ratings": 4.9,
+        "description": "Engineered for performance and comfort, these women's running shoes feature a lightweight, breathable mesh upper that keeps your feet cool and dry. The cushioned midsole absorbs shock, while the flexible rubber outsole provides excellent grip and stability. Designed for both casual joggers and serious runners, these shoes offer the perfect combination of style and functionality. Ideal for workouts, outdoor activities, or everyday wear.",
+        "category": "women"
+      },
+      {
+        "name": "Soft Knit Turtleneck Sweater",
+        "image": "https://i5.walmartimages.com/asr/f4e817ea-8a49-49c7-9332-956b4df1474c.024cd307a92bad30eb5c74cffcef4ef6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "price": 74.99,
+        "ratings": 4.7,
+        "description": "This Bohemian-style summer dress is a must-have for vacation or beach outings. Made from breathable cotton and linen, it keeps you cool on hot days while providing a relaxed yet stylish look. The dress features a flowy A-line silhouette, spaghetti straps, and a vibrant floral print. Whether paired with sandals or espadrilles, this dress is perfect for creating a breezy and effortless summer outfit.",
+        "category": "women"
+      },
+      {
+        "name": "Elegant Pearl Necklace",
+        "image": "https://img.ltwebstatic.com/images3_pi/2023/04/20/1681973073b8c36bdbcfcfe17c790a8a97193bee9f_thumbnail_720x.webp",
+        "price": 129.99,
+        "ratings": 4.9,
+        "description": "This elegant pearl necklace is a timeless piece crafted with high-quality freshwater pearls. The pearls are hand-selected for their luster and uniformity, giving the necklace a sophisticated and luxurious appeal. It features a sterling silver clasp with an adjustable chain, making it perfect for formal occasions, weddings, or everyday wear.",
+        "category": "accessories"
+      },
+      {
+        "name": "Vintage Leather Wallet",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSltLwP5kLeV1DI0ZwbdQx2M-vsIvtkdXpM9IsLGaCW3Hr6S1Bfyf7fAlQY-JcBLFEadYI&usqp=CAU",
+        "price": 559.99,
+        "ratings": 4.7,
+        "description": "Crafted from premium full-grain leather, this vintage wallet combines functionality and elegance. It features multiple card slots, a coin pocket, and a spacious cash compartment. The minimalist yet stylish design makes it a perfect everyday accessory for both casual and formal settings. The wallet ages beautifully over time, developing a rich patina that enhances its vintage charm.",
+        "category": "accessories"
+      },
+      {
+        "name": "Luxury Movado Watch",
+        "image": "https://a.1stdibscdn.com/movado-40mm-black-dial-stainless-steel-quartz-mens-watch-607533-for-sale/j_12501/j_200472221691585420706/j_20047222_1691585420892_bg_processed.jpg",
+        "price": 249.99,
+        "ratings": 4.8,
+        "description": "This luxury stainless steel watch offers precision and sophistication in one package. Featuring a scratch-resistant sapphire crystal face, it is powered by a high-accuracy quartz movement. The water-resistant design ensures durability, while the sleek silver-tone strap adds a touch of elegance. Whether for business or leisure, this watch is an essential addition to any wardrobe.",
+        "category": "accessories"
+      },
+      {
+        "name": "Designer Gucci Sunglasses",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIAnOtjyz6w9QHYkt8XdQTJUCD1hU91HyxGQ&s",
+        "price": 89.99,
+        "ratings": 4.6,
+        "description": "These designer sunglasses blend style and functionality, offering 100% UV protection for optimal eye safety. The lightweight, durable frame is designed for all-day comfort, while the polarized lenses reduce glare for a clearer view. Available in multiple frame colors, these sunglasses are a must-have fashion statement for both casual and high-end occasions.",
+        "category": "accessories"
+      },
+      {
+        "name": "Handmade Beaded Bracelet Set",
+        "image": "https://i.ebayimg.com/images/g/pS8AAOSwmm1mv7Uw/s-l400.png",
+        "price": 39.99,
+        "ratings": 4.5,
+        "description": "This handmade beaded bracelet set is crafted from high-quality natural stones, offering a unique and meaningful accessory. Each bead is carefully selected for its color and energy properties, making it a perfect gift for those who appreciate spiritual healing or bohemian fashion. The elastic band ensures a comfortable fit for all wrist sizes.",
+        "category": "accessories"
+      },
+      {
+        "name": "Chanel Coco Mademoiselle Perfume",
+        "image": "https://www.gleek.gr/170999-large_default/chanel-coco-mademoiselle-intense-eau-de-parfum.jpg",
+        "price": 199.99,
+        "ratings": 4.9,
+        "description": "Experience the luxurious scent of Royal Oud Perfume, crafted for those who appreciate the deep and rich aroma of natural oud. This fragrance opens with warm spicy notes, followed by a heart of rare agarwood, and finishes with a sensual blend of musk and sandalwood. Ideal for special occasions and evening wear, this long-lasting fragrance leaves a memorable impression.",
+        "category": "fragrances"
+      },
+      {
+        "name": "Ch Good Girl Eau De Parfum",
+        "image": "https://images.shop.frankfurt-airport.com/pim/defaults/1200x,jpeg/catalog/3/f/5/a/3f5af60e6946ebc8cddf5fe9da6eb407_1204148.jpg",
+        "price": 199.99,
+        "ratings": 4.8,
+        "description": "Ch Good Girl Eau De Parfum is a delicate yet captivating fragrance that celebrates the essence of blooming flowers. The top notes burst with fresh jasmine and peony, transitioning into a romantic heart of rose and lily. A subtle base of vanilla and white musk adds warmth and elegance. Perfect for daytime wear, this fragrance is a signature scent for those who love floral sophistication.",
+        "category": "fragrances"
+      },
+      {
+        "name": "Dior J'adore Eau De Parfume",
+        "image": "https://perfumeheadquarters.com/cdn/shop/files/christian-dior-jadore-fragrance-50-oz-eau-de-parfum-fragrance-3348901237116-188481.jpg?v=1733873698&width=1445",
+        "price": 129.99,
+        "ratings": 4.7,
+        "description": "Dior J'adore Eau De Parfume is a fresh and invigorating fragrance designed for modern men. It opens with a vibrant burst of citrus, featuring notes of bergamot, lemon, and mandarin. The heart reveals a woody blend of cedar and vetiver, creating a refined masculine character. A touch of amber and musk in the base adds warmth and longevity, making it ideal for daily wear.",
+        "category": "fragrances"
+      },
+      {
+        "name": "Gucci Bloom Perfume",
+        "image": "https://i5.walmartimages.com/seo/Gucci-Bloom-Eau-De-Parfum-Perfume-for-Women-3-3-Oz_d40c9979-047c-4d1e-8eda-06f9c552aab8_1.88073c0e96cfbf0e993ffa4e6ea44b95.jpeg",
+        "price": 179.99,
+        "ratings": 4.9,
+        "description": "Gucci Bloom Perfume is an enchanting blend of amber, vanilla, and exotic spices. This rich and warm fragrance begins with spicy cinnamon and nutmeg, leading to a heart of golden amber and creamy vanilla. The deep base of patchouli and sandalwood creates a seductive finish. Perfect for fall and winter evenings, this perfume wraps you in a cozy, sensual aura.",
+        "category": "fragrances"
+      },
+      {
+        "name": "yves-saint-laurent-eau-de-parfum",
+        "image": "https://www.testyourparfum.com/wp-content/uploads/2021/11/yves-saint-laurent-libre-intense-eau-de-parfum-voor-dames.jpg",
+        "price": 99.99,
+        "ratings": 4.6,
+        "description": "Feel the freshness of the ocean with yves-saint-laurent-eau-de-parfum. This aquatic fragrance captures the essence of sea air with crisp marine notes, blended with hints of grapefruit and green apple. The heart reveals a touch of lavender and rosemary, while the base is composed of driftwood and musk. Perfect for summer days, this light yet long-lasting scent is refreshing and energizing.",
+        "category": "fragrances"
+      },
+      {
+        "name": "Bleu De Chanel",
+        "image": "https://smithandcaugheys-cdn.freetls.fastly.net/data/media/images/catalogue/chanel/retailer/skus_relative/3145891071702.jpg?height=auto&width=480&404=default.jpg",
+        "price": 289.99,
+        "ratings": 4.8,
+        "description": "Bleu De Chanel is an intoxicating blend of exotic spices and deep oriental notes. It begins with a fiery kick of cardamom and black pepper, melting into a heart of warm saffron and rose. The fragrance settles with a luxurious base of oud, vanilla, and smoky incense. A bold and mysterious scent, perfect for those who love deep, rich, and sensual aromas.",
+        "category": "fragrances"
+      },
+      {
+        "name": "Modern Leather Sofa",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJhhB6Q_kU2-gyfnhQyJxtfHuqTjUb8YuMw88y_r36GNxPxH0e9cbBDkED1UZe1ceBSA&usqp=CAU",
+        "price": 1799.99,
+        "ratings": 4.8,
+        "description": "Upgrade your living space with the Modern Leather Sofa, designed for ultimate comfort and sophistication. Crafted from premium, full-grain leather, this sofa features deep cushions with high-density foam for exceptional support. The sleek, minimalist design with sturdy hardwood legs makes it a perfect fit for contemporary interiors. Ideal for both relaxation and entertaining guests, this sofa adds elegance to any home.",
+        "category": "furniture"
+      },
+      {
+        "name": "Oakwood Dining Table Set",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCrlrjcCVlvvF8jD1jhWjBIg5A9W-RQjEIaqpZHbbivXd8Aqx5v8xB3emYWmk5SVRbfQ&usqp=CAU",
+        "price": 999.99,
+        "ratings": 4.9,
+        "description": "The Oakwood Dining Table Set is a timeless addition to any dining room. Crafted from solid oakwood, this six-seater table is durable and beautifully finished with a rich walnut stain. It comes with matching cushioned chairs featuring ergonomic backrests for maximum comfort. Perfect for family meals and dinner parties, this set blends functionality with classic elegance.",
+        "category": "furniture"
+      },
+      {
+        "name": "Ergonomic Office Chair",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfvmex6kJsyyCZDF57wEVNlScbM8AMKb-GLlwpwoPFx-ZBTiwS8ztj_blWqz5WDf2lJKQ&usqp=CAU",
+        "price": 249.99,
+        "ratings": 4.7,
+        "description": "Enhance your productivity with the Ergonomic Office Chair, designed to provide superior lumbar support and comfort. Featuring an adjustable mesh backrest, padded seat cushion, and 360-degree swivel wheels, this chair is perfect for long hours at the desk. The height-adjustable armrests and tilt mechanism allow for customized seating positions, making it an essential piece for any home or office workspace.",
+        "category": "furniture"
+      },
+      {
+        "name": "Minimalist Bookshelf",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTujVq4pyXfLCCzOCpFWVJ3QEZ1qT9VeWqRzA&s",
+        "price": 179.99,
+        "ratings": 4.6,
+        "description": "Organize your book collection in style with the Minimalist Bookshelf. Made from high-quality engineered wood, this shelf features a sleek, open design with five spacious tiers for books, decor, and more. The sturdy frame and modern aesthetic make it a perfect addition to living rooms, offices, or study spaces, helping to keep your home neat and stylish.",
+        "category": "furniture"
+      },
+      {
+        "name": " Wooden Coffee Table",
+        "image": "https://s3.amazonaws.com/designplusgallery.com/wp-content/uploads/2018/06/21113139/baker-furniture-mahogany-and-glass-coffee-table-2568.jpeg",
+        "price": 299.99,
+        "ratings": 4.8,
+        "description": "Add a touch of rustic charm to your living room with the Rustic Wooden Coffee Table. Made from reclaimed wood, this table features a natural grain finish that highlights its unique character. The sturdy metal legs provide stability, while the spacious tabletop offers ample space for decor, magazines, and beverages. A perfect blend of vintage aesthetics and modern durability.",
+        "category": "furniture"
+      },
+      {
+        "name": "Organic Basmati Rice",
+        "image": "https://m.media-amazon.com/images/I/51q5n2MpOvL.jpg",
+        "price": 19.99,
+        "ratings": 4.9,
+        "description": "Our Organic Basmati Rice is sourced from the finest farms, ensuring a long grain, aromatic, and fluffy texture when cooked. Perfect for biryanis, pilafs, and everyday meals, this rice is free from chemicals and pesticides. It is aged for at least 12 months to enhance its natural fragrance and flavor, making it a staple for any kitchen.",
+        "category": "groceries"
+      },
+      {
+        "name": "Cold-Pressed Extra Virgin Olive Oil",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Edx5O2aQL._UL500_.jpg",
+        "price": 59.99,
+        "ratings": 4.9,
+        "description": "Our Cold-Pressed Extra Virgin Olive Oil is made from premium hand-picked olives, offering a rich, fruity aroma and robust flavor. Perfect for salads, marinades, and cooking, this heart-healthy oil is loaded with antioxidants and healthy fats. Produced without any chemicals or artificial processes, this olive oil ensures purity and quality in every drop.",
+        "category": "groceries"
+      },
+      {
+        "name": "Almond Butter",
+        "image": "https://bf1af2.a-cdn.akinoncloud.com/products/2024/09/07/62214/3dfec17f-6904-4820-943e-233818fb46d9.jpg",
+        "price": 12.99,
+        "ratings": 4.7,
+        "description": "Our Almond Butter is made from 100% roasted almonds, offering a creamy, smooth texture without any added sugars or preservatives. Packed with protein, healthy fats, and essential vitamins, this spread is perfect for breakfast, smoothies, or as a nutritious snack. Enjoy its natural, nutty flavor without any artificial additives, making it a guilt-free indulgence.",
+        "category": "groceries"
+      },
+      {
+        "name": "Whole Grain Oats",
+        "image": "https://i.ebayimg.com/images/g/IFIAAOSwW31lRmit/s-l1200.png",
+        "price": 38.49,
+        "ratings": 4.8,
+        "description": "Start your day with our nutritious Whole Grain Oats, rich in fiber and essential nutrients. These oats are minimally processed to retain their natural goodness, providing a wholesome and satisfying breakfast. Whether used in oatmeal, smoothies, or baking, they promote heart health, aid digestion, and keep you feeling full for longer.",
+        "category": "groceries"
+      },
+      {
+        "name": "Raw Honey",
+        "image": "https://honeygardens.com/cdn/shop/products/HG-Wildflower-1lb.jpg?v=1681750226&width=1445",
+        "price": 14.99,
+        "ratings": 4.9,
+        "description": "Our Raw Honey is 100% pure, unfiltered, and packed with natural enzymes, antioxidants, and nutrients. Sourced from ethical beekeepers, this honey retains its natural goodness, making it a perfect sweetener for tea, desserts, and health remedies. Unlike processed honey, our raw honey is free from additives and maintains its natural flavor and benefits.",
+        "category": "groceries"
+      }
+  ]
+  
