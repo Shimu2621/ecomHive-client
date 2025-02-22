@@ -11,7 +11,7 @@ const Navbar = async () => {
       <Container>
         <div className="flex items-center justify-between px-10 py-3">
           <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown block md:hidden">
               <div
                 tabIndex={0}
                 role="button"
@@ -51,13 +51,13 @@ const Navbar = async () => {
               </ul>
             </div>
             {/* Logo Container */}
-            <div className="relative text-lg mx-auto gap-0 items-center lg:flex md:flex hidden ">
+            <div className="text-lg mx-auto gap-0 items-center lg:flex md:flex hidden ">
               <Image
                 src="https://cdn.vectorstock.com/i/500p/92/54/shopping-cart-sale-logo-vector-14799254.jpg"
                 alt="Shop Logo"
                 width={96}
                 height={96}
-                className="absolute  w-8 h-8 object-contain rounded-full"
+                className="w-16 h-16 object-contain"
               />
               <h2 className="text-3xl italic font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                 EcomHive

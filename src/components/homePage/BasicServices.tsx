@@ -5,30 +5,32 @@ import Marquee from "react-fast-marquee";
 
 const BasicServices = () => {
   return (
-    <div className="bg-white h-[60vh] py-16">
+    <div className="bg-white py-16">
       <Container>
-        <div className="grid grid-cols1 sm:grid-cols-2 lg:grid-cols-4 items-center mt-32 border border-gray-200 p-6 max-w-[1400px] mx-auto">
-          {basicServices.map((service) => (
-            <Marquee>
-              <div
-                key={service?.id}
-                className="flex flex-col items-center justify-center"
-              >
-                <Image
-                  src={service?.icon}
-                  width={55}
-                  height={55}
-                  alt="Basic services icon"
-                  className="mb-2"
-                  unoptimized={true} // This will allow Next.js to use images from `public`
-                />
-                <h4 className="text-gray-600 text-lg font-bold">
-                  {service?.title}
-                </h4>
-                <p className="text-sm">{service?.status}</p>
-              </div>
-            </Marquee>
-          ))}
+        <div className="mt-60 border border-gray-200 p-6 max-w-[1400px] mx-auto">
+          <Marquee>
+            <div className="grid grid-cols1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-12">
+              {basicServices.map((service) => (
+                <div
+                  key={service?.id}
+                  className="flex flex-col items-center justify-center"
+                >
+                  <Image
+                    src={service?.icon}
+                    width={55}
+                    height={55}
+                    alt="Basic services icon"
+                    className="mb-2"
+                    unoptimized={true} // This will allow Next.js to use images from `public`
+                  />
+                  <h4 className="text-gray-600 text-lg font-bold">
+                    {service?.title}
+                  </h4>
+                  <p className="text-sm">{service?.status}</p>
+                </div>
+              ))}
+            </div>
+          </Marquee>
         </div>
       </Container>
     </div>
