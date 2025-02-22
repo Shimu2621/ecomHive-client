@@ -1,8 +1,11 @@
 import Container from "@/utils/container/Container";
+import { UserButton } from "@clerk/nextjs";
+import { currentUser } from "@clerk/nextjs/server";
 import Image from "next/image";
 import Link from "next/link";
 
-const Navbar = () => {
+const Navbar = async () => {
+  const user = await currentUser();
   return (
     <div className="bg-white">
       <Container>
@@ -37,7 +40,7 @@ const Navbar = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/products">Products</Link>
+                  <Link href="/product">Products</Link>
                 </li>
                 <li>
                   <Link href="/about">About</Link>
@@ -75,7 +78,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/products"
+                  href="/product"
                   className="text-gray-700 text-lg font-bold hover:text-blue-600"
                 >
                   Products
@@ -106,12 +109,9 @@ const Navbar = () => {
               width={30}
               height={30}
             />
-            <Image
-              src="/icons/user1.png"
-              alt="Crat Icon"
-              width={30}
-              height={30}
-            />
+            {
+              user ? (<UserButton />) : (<Link href="/sign-in" className="bg-blue-400 px-3 py-2 text-black rounded-lg">Sign In</Link>)
+            }
           </div>
         </div>
       </Container>
