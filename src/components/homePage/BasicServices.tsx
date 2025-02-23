@@ -1,15 +1,35 @@
+"use client";
 import basicServices from "@/staticData/basicServices";
 import Container from "@/utils/container/Container";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
+// Aos
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const BasicServices = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true, // Only animate once
+      easing: "ease-in-out",
+    });
+  }, []);
+
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white pt-20 pb-20">
       <Container>
-        <div className="mt-60 border border-gray-200 p-6 max-w-[1400px] mx-auto">
+        <div
+          className="border border-gray-200 px-2 py-8 max-w-[1400px] mx-auto"
+          data-aos="zoom-in"
+        >
           <Marquee>
-            <div className="grid grid-cols1 sm:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-12">
+            <div
+              className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 items-center justify-center gap-16"
+              data-aos="fade-right"
+            >
               {basicServices.map((service) => (
                 <div
                   key={service?.id}

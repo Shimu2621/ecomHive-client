@@ -109,9 +109,16 @@ const Navbar = async () => {
               width={30}
               height={30}
             />
-            {
-              user ? (<UserButton />) : (<Link href="/sign-in" className="bg-blue-400 px-3 py-2 text-black rounded-lg">Sign In</Link>)
-            }
+            {user ? (
+              <UserButton />
+            ) : (
+              <Link
+                href="/sign-in"
+                className="px-3 py-2   text-sm bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg  shadow-lg hover:shadow-blue-500/50 transition-shadow"
+              >
+                Sign In
+              </Link>
+            )}
           </div>
         </div>
       </Container>

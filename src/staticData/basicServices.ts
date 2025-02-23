@@ -23,6 +23,12 @@ const basicServices = [
     title: "Secure Payment",
     status: "We ensure secure payment",
   },
+  {
+    id: 5,
+    icon: "/icons/money-back.png",
+    title: "Money Back Guarentee",
+    status: "Any back within 30 days",
+  },
 ];
 
 export default basicServices;

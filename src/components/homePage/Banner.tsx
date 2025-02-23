@@ -8,13 +8,26 @@ import "swiper/css/navigation";
 import sliders from "@/staticData/slider";
 import Image from "next/image";
 
+// Aos
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true, // Only animate once
+      easing: "ease-in-out",
+    });
+  }, []);
+
   return (
-    <div className="w-full h-[400px] md:h-[500px] lg:h-[600px]">
+    <div className="w-full h-[65vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh]">
       <Swiper
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 10000 }}
         pagination={{ clickable: true }}
         navigation={{
           nextEl: ".custom-next",
@@ -26,7 +39,10 @@ const Banner = () => {
         {sliders.map((slider) => (
           <SwiperSlide key={slider.id}>
             <div>
-              <div className="relative w-full h-[65vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh]">
+              <div
+                className="relative w-full h-[65vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh]"
+                data-aos="zoom-in"
+              >
                 <Image
                   fill
                   src={slider.image}
@@ -37,7 +53,11 @@ const Banner = () => {
                 {/* Shade opacity */}
                 <div className="absolute top-0 left-0 bg-black h-full w-full opacity-40"></div>
               </div>
-              <div className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+              <div
+                className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-center text-white"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
                 <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
                   {slider.title}
                 </h2>
@@ -47,6 +67,8 @@ const Banner = () => {
                 <a
                   href={slider.buttonLink}
                   className=" inline-block mt-6 px-8 py-3 text-sm sm:text-md md:text-lg lg:text-xl bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-lg  shadow-lg hover:shadow-blue-500/50 transition-shadow"
+                  data-aos="zoom-in"
+                  data-aos-delay="800"
                 >
                   {slider.buttonText}
                 </a>
@@ -55,10 +77,16 @@ const Banner = () => {
           </SwiperSlide>
         ))}
         {/* Custom Navigation Arrows */}
-        <div className="custom-prev absolute left-2 sm:left-4 top-1/2 py-3 px-3 sm:py-4 sm:px-4 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-900 text-white font-bold rounded-lg shadow-lg hover:shadow-blue-500/50 transition-shadow cursor-pointer z-10">
+        <div
+          className="custom-prev absolute left-2 sm:left-4 top-1/2 py-3 px-3 sm:py-4 sm:px-4 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-900 text-white font-bold rounded-lg shadow-lg hover:shadow-blue-500/50 transition-shadow cursor-pointer z-10"
+          data-aos="fade-right"
+        >
           &#10094;
         </div>
-        <div className="custom-next absolute right-2 sm:right-4 top-1/2 py-3 px-3 sm:py-4 sm:px-4 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-900 text-white font-bold rounded-lg shadow-lg hover:shadow-blue-500/50 transition-shadow cursor-pointer z-10">
+        <div
+          className="custom-next absolute right-2 sm:right-4 top-1/2 py-3 px-3 sm:py-4 sm:px-4 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-900 text-white font-bold rounded-lg shadow-lg hover:shadow-blue-500/50 transition-shadow cursor-pointer z-10"
+          data-aos="fade-left"
+        >
           &#10095;
         </div>
       </Swiper>
