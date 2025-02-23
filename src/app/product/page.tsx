@@ -1,10 +1,14 @@
-import React from "react";
+import AllProducts from "@/components/product/AllProducts";
 
-const ProductPage = () => {
+
+const ProductPage = async () => {
+  const res = await fetch('https://staging-be-ecom.techserve4u.com/api/product/getProducts');
+  const data = await res.json();
+
   return (
-    <div>
-      <h1>This is a product page</h1>
-    </div>
+   <>
+   <AllProducts products={data?.products} />
+   </>
   );
 };
 
