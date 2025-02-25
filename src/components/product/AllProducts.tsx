@@ -1,16 +1,71 @@
 "use client";
 
-import React from "react";
 import ProductCard from "./ProductCard";
-import { AllProductsType } from "../../types/products/allProducts";
+import Container from "@/utils/container/Container";
+import { AllProductsType } from "@/types/products/allProducts";
 
-function AllProducts({ products }: { products: AllProductsType[] }) {
-  console.log(products);
+function AllProducts({ products = [] }: { products: AllProductsType[] }) {
+  console.log("Products:", products);
+
   return (
-    <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 lg:gap-10 my-20">
-      {products?.map((product: any, index: number) => (
-        <ProductCard key={index} product={product} />
-      ))}
+    <div>
+      {/* Search Bar functionality */}
+      {/* <div className="join flex flex-col items-center space-y-4  border border-black bg-black p-8 max-w-4xl w-full mx-auto">
+        <div className="flex items-center  w-full max-w-4xl rounded-md">
+          <input
+            ref={searchRef}
+            onClick={handleSearch}
+            type="text"
+            className="input input-bordered join-item flex-1 bg-white"
+            placeholder="Search here..."
+          />
+          <select
+            ref={categoryRef}
+            onChange={handleSelectCategory}
+            className=" select select-bordered join-item flex-1 bg-white"
+          >
+            <span>
+              <BiCategoryAlt />
+            </span>
+            <option disabled selected>
+              All Category
+            </option>
+            <option>Men</option>
+            <option>Women</option>
+            <option>Accessories</option>
+            <option>Fragrances</option>
+            <option>Furniture</option>
+            <option>Groceries</option>
+          </select>
+          <button
+            onClick={handleSearch}
+            className="btn bg-orange-900 join-item text-white px-10 hover:bg-orange-600"
+          >
+            Search
+          </button>
+        </div>
+      </div> */}
+
+      <div className="mx auto pt-20">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-700 italic ">
+            Our Exclusive Products Collection
+          </h1>
+          <p className="text-gray-500 ">
+            Stay ahead with our latest collection of trendy and high-quality
+            products. Limited stock available,
+            <br />
+            shop now before it's gone!
+          </p>
+        </div>
+        <Container>
+          <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-14">
+            {products?.map((product: any, index: number) => (
+              <ProductCard key={index} product={product} />
+            ))}
+          </div>
+        </Container>
+      </div>
     </div>
   );
 }

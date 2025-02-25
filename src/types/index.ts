@@ -1,3 +1,1 @@
-// import * as AllProductsTypes from './product/allProducts';
-
-import * as AllProductsTypes from "./products/allProducts";
+export * as AllProductsTypes from "./product/allProducts";

@@ -110,7 +110,7 @@ const Navbar = async () => {
               height={30}
             />
             {user ? (
-              <UserButton />
+              <UserButton afterSignOutUrl="/" />
             ) : (
               <Link
                 href="/sign-in"
