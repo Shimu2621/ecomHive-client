@@ -3,6 +3,7 @@ import { UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 import Image from "next/image";
 import Link from "next/link";
+import CartComp from "./CartComp";
 
 const Navbar = async () => {
   const user = await currentUser();
@@ -103,12 +104,7 @@ const Navbar = async () => {
             </ul>
           </div>
           <div className="navbar-end flex justify-end items-center gap-6">
-            <Image
-              src="/icons/shopping-cart.png"
-              alt="Crat Icon"
-              width={30}
-              height={30}
-            />
+            <CartComp />
             {user ? (
               <UserButton afterSignOutUrl="/" />
             ) : (

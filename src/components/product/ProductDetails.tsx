@@ -5,9 +5,17 @@ import React, { useState } from "react";
 import { Product } from "@/types/product/allProducts";
 import { Rating } from "@smastrom/react-rating";
 import parse from "html-react-parser";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem } from "@/redux/cartSlice";
+import toast from "react-hot-toast";
 
 function ProductDetails({ product }: { product: Product }) {
-  console.log(product);
+  const dispatch = useDispatch();
+
+  const handleAddToCart = () => {
+    dispatch(addItem(product));
+    toast.success("Product added to cart successfully!");
+  };
 
   return (
     <div className=" min-h-screen mt-20">
@@ -83,10 +91,16 @@ function ProductDetails({ product }: { product: Product }) {
             </div>
           </div>
 
-          <p className="text-gray-600 font-semibold">Stock: {product?.stock}</p>
+          <p className="text-gray-600 font-semibold">
+            Stock: {product?.stock === 0 ? "Out of Stock" : product?.stock}
+          </p>
           {/* Add to Cart & Buy Now Buttons */}
           <div className="mt-6 flex space-x-4">
-            <button className="px-6 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-500">
+            <button
+              disabled={product.stock === 0}
+              onClick={handleAddToCart}
+              className="px-6 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-500 disabled:opacity-50"
+            >
               Add to Cart
             </button>
             <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500">
