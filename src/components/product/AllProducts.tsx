@@ -1,10 +1,10 @@
 "use client";
 
+import { AllProductsTypes } from "@/types/product/allProducts";
 import ProductCard from "./ProductCard";
 import Container from "@/utils/container/Container";
-import { AllProductsType } from "@/types/products/allProducts";
 
-function AllProducts({ products = [] }: { products: AllProductsType[] }) {
+function AllProducts({ products = [] }: { products: AllProductsTypes[] }) {
   console.log("Products:", products);
 
   return (
@@ -59,7 +59,7 @@ function AllProducts({ products = [] }: { products: AllProductsType[] }) {
           </p>
         </div>
         <Container>
-          <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-14">
+          <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 lg:gap-6 my-14 pb-20">
             {products?.map((product: any, index: number) => (
               <ProductCard key={index} product={product} />
             ))}
