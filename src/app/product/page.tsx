@@ -1,25 +1,30 @@
-import LatestProducts from "@/components/homePage/LatestProducts";
+import FeaturedProducts from "@/components/homePage/FeaturedProducts";
 import AllProducts from "@/components/product/AllProducts";
-// import axios from "axios";
-// import https from "https"; // Import the https module
 
 const ProductPage = async () => {
-  const res = await fetch(`${process.env.BASE_URL}/product/getProducts`);
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/product/getProducts`
+  );
   // console.log("Response:", res);
   const data = await res.json();
-  console.log("Fetched Products:", data);
+  const products = data.products || [];
+  console.log("Fetched Products:", products);
 
-  async function getLatestProducts() {
-    const res = await fetch(`${process.env.BASE_URL}/product/getProducts`, {
-      cache: "no-store",
-    });
-    return res.json();
-  }
+  // async function featuredProductPage() {
+  //   const res = await fetch(
+  //     `${process.env.NEXT_PUBLIC_BASE_URL}/product/getFeatured`
+  //   );
+  //   // console.log("Response:", res);
+  //   const data = await res.json();
+  //   const featuredProducts = data.products || [];
+  //   console.log("Fetched Featured Products:", featuredProducts);
+  //   return featuredProducts; // Returning data if needed
+  // }
 
   return (
     <>
-      <AllProducts products={data.data} />
-      <LatestProducts products={products} />
+      <AllProducts products={products} />
+      {/* <FeaturedProducts products={featuredProducts} /> */}
     </>
   );
 };

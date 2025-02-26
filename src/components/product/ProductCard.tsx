@@ -12,47 +12,70 @@ import Container from "@/utils/container/Container";
 // Smastorm react rating
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
-import { ProductType } from "@/types/products/allProducts";
+import { Product } from "@/types/product/allProducts";
 
-function ProductCard({ product }: { product: ProductType }) {
+function ProductCard({ product }: { product: Product }) {
   return (
-    <div className="">
+    <div>
       <Container>
         <Link href={`/product/${product?._id}`}>
-          <Card className="w-full h-100 rounded-sm  hover:shadow-lg hover:scale-105 transition duration-300 ease-in-out">
-            <CardHeader className="mt-4">
+          <Card className="w-full h-100 shadow-sm border border-none">
+            <div className="">
               <Image
-                src={product?.image}
+                src={product?.thumbnail}
                 alt="Product Photo"
                 height={384}
                 width={360}
-                className="h-40 w-72 mx-auto object-contain mb-4 hover:scale-105 transition duration-300 ease-in-out"
+                className="w-96 h-64 p-4 mx-auto rounded-sm border border-gray-200 object-contain mb-2  hover:scale-105 transition duration-300"
               />
+            </div>
+            <CardHeader className="mt-2">
               <CardTitle className="text-gray-700 font-bold text-lg">
                 {product?.name}
               </CardTitle>
-              <CardDescription className="text-sm text-gray-500 mb-2 line-clamp-2">
-                {product?.description}
-              </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="font-bold text-gray-600 ">
-                Category: {product?.category}
-              </p>
               <p className="text-sm mb-2 ">
                 <Rating
                   style={{ maxWidth: 120 }}
-                  value={product?.ratings}
+                  value={product?.ratingCount}
                   readOnly
                   halfFillMode="svg"
                 />
               </p>
-              <p className="font-bold  text-gray-600">
-                Price : <span className="text-gray-500">${product?.price}</span>
-              </p>
+              <div className="text-xl">
+                <div>
+                  {product.discount.value > 0 ? (
+                    <div>
+                      {product?.discount?.discountType === "flat" && (
+                        <h2 className="text-gray-600 font-bold">
+                          ${product?.price - product?.discount?.value}
+                          <span className="text-gray-300 line-through  ml-2">
+                            ${product?.price}
+                          </span>
+                        </h2>
+                      )}
+                      {product?.discount?.discountType === "percent" && (
+                        <h2 className="text-gray-600 font-bold">
+                          $
+                          {product?.price -
+                            Math.floor(
+                              product.price * (product?.discount?.value / 100)
+                            )}
+                          <span className="text-gray-300 line-through  ml-2">
+                            ${product?.price}
+                          </span>
+                        </h2>
+                      )}
+                    </div>
+                  ) : (
+                    <h2 className="price">${product?.price}</h2>
+                  )}
+                </div>
+              </div>
             </CardContent>
             <CardFooter>
-              <button className="mt-2 px-3 py-2 text-xs lg:text-sm bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-md  shadow-lg hover:shadow-blue-500/50 transition-shadow">
+              <button className="px-3 py-2 text-xs lg:text-sm bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-md  shadow-lg hover:shadow-blue-500/50 transition-shadow">
                 View Details
               </button>
             </CardFooter>

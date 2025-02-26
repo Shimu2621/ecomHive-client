@@ -6,7 +6,7 @@ interface Params {
 
 const SingleProductPage = async ({ params }: { params: Params }) => {
   const id = params.id;
-  const res = await fetch(`http://localhost:5000/api/products/${id}`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/product/${id}`);
   const data = await res.json();
 
   return (
