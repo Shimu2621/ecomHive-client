@@ -1,4 +1,3 @@
-import FeaturedProducts from "@/components/homePage/FeaturedProducts";
 import AllProducts from "@/components/product/AllProducts";
 
 const ProductPage = async () => {
