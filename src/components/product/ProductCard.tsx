@@ -22,7 +22,7 @@ function ProductCard({ product }: { product: Product }) {
           <Card className="w-full h-100 shadow-sm border border-none">
             <div className="">
               <Image
-                src={product?.thumbnail}
+                src={product?.thumbnail || "/logo/logo.png"}
                 alt="Product Photo"
                 height={384}
                 width={360}
