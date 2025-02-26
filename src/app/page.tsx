@@ -1,6 +1,9 @@
 import Banner from "@/components/homePage/Banner";
 import BasicServices from "@/components/homePage/BasicServices";
-import LatestProduct from "@/components/homePage/LatestProduct";
+// import FeaturedProducts from "@/components/homePage/FeaturedProducts";
+
+import Footer from "@/components/shared/footer";
+
 import Navbar from "@/components/shared/Navbar";
 
 export default function Home() {
@@ -9,7 +12,8 @@ export default function Home() {
       <Navbar />
       <Banner />
       <BasicServices />
-      <LatestProduct />
+      {/* <FeaturedProducts /> */}
+      <Footer />
     </div>
   );
 }
