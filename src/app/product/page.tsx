@@ -8,7 +8,7 @@ const ProductPage = async () => {
   // console.log("Response:", res);
   const data = await res.json();
   console.log("Fetched Products:", data);
-
+  const products = data?.products;
   async function getLatestProducts() {
     const res = await fetch(`${process.env.BASE_URL}/product/getProducts`, {
       cache: "no-store",

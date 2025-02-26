@@ -1,11 +1,11 @@
 "use client";
 
-import { ProductType } from "@/types/products/allProducts";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Rating } from "@smastrom/react-rating";
+import { AllProductsTypes } from "@/types";
 
-async function ProductDetails({ product }: { product: ProductType }) {
+async function ProductDetails(product: any) {
   console.log(product);
   const [quantity, setQuantity] = useState(1);
 

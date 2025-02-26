@@ -4,7 +4,7 @@ async function getLatestProducts() {
   });
   return res.json();
 }
-export default async function LatestProducts() {
+export default async function LatestProducts(products: any) {
   const products = await getLatestProducts();
 
   return (
